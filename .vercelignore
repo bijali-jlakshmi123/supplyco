@@ -1,6 +1,5 @@
 cms
 scripts
-prisma
 .strapi
 node_modules
 .next
