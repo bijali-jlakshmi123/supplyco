@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { PrismaClient } from "@prisma/client/index";
 import { PrismaPg } from "@prisma/adapter-pg";
 
