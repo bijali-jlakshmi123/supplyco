@@ -550,15 +550,15 @@ export default function CheckoutClient() {
                         icon: Truck,
                       },
                       {
-                        id: "upi",
-                        label: "UPI / QR Code",
-                        desc: "Pay with GPay, PhonePe, or Paytm",
+                        id: "stripe",
+                        label: "Credit / Debit Card",
+                        desc: "Powered by Stripe",
                         icon: CreditCard,
                       },
                       {
-                        id: "card",
-                        label: "Credit / Debit Card",
-                        desc: "Powered by Razorpay",
+                        id: "paypal",
+                        label: "PayPal",
+                        desc: "Pay securely with PayPal",
                         icon: ShieldCheck,
                       },
                     ].map((m) => (
